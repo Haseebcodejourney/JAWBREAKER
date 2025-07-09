@@ -1,0 +1,21 @@
+
+/* Remove default max-width constraints */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure full width for all main containers */
+.min-h-screen {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Remove any container width limitations */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: none;
+}
